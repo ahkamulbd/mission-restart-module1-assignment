@@ -2,6 +2,10 @@
     font-family: "Poppins", sans-serif;
 }
 
-.bangla-font {
-    font-family: "Hind Siliguri", sans-serif;
+#trending-div figure {
+    background-color: gray;
+}
+
+#trending-div figure img {
+    height: 300px;
 }
