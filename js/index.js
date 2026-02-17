@@ -12,7 +12,6 @@ const loadProducts = () => {
 const showTopRatedProducts = products => {
     // console.log(products[0].category);
 
-
     const trendingDiv = document.getElementById("trending-div");
     trendingDiv.innerHTML = "";
 
@@ -59,15 +58,3 @@ const showTopRatedProducts = products => {
 }
 
 loadProducts();
-
-
-
-let arr = [44, 3, 88, 12, 0, 23, 100, 1, 45];
-
-let element = arr.fi
-
-// const topThree = [...arr]
-//     .sort((a, b) => b - a)
-//     .filter((_, index) => index < 3);
-
-// console.log(topThree); // [100, 88, 45]
