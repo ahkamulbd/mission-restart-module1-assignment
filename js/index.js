@@ -74,7 +74,7 @@ const showAllProduct = products => {
     productsDiv.innerHTML = "";
 
     products.forEach(product => {
-        console.log(product);
+        // console.log(product);
 
         const productCart = document.createElement("div");
         productCart.innerHTML = `
@@ -102,3 +102,27 @@ const showAllProduct = products => {
 }
 
 loadAllProducts();
+
+// const numbers = [1, 2, 3, 4];
+
+// numbers.forEach(num => {
+//     console.log(num);
+// });
+
+// let a = 10;
+
+// if (a >= 10) {
+//     let b = 20;
+//     console.log("True");     // output - True;
+//     console.log(b);         // output - 20;
+// }
+// console.log(b);             // output - error
+
+// function herName(a) {
+//     let b = 10;
+//     let sum = a + b;
+
+//     return sum;
+// }
+// console.log(herName(20));       // output - 30;
+// console.log(b);                 // output - error
